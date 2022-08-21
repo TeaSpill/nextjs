@@ -1,0 +1,14 @@
+.tile {
+  background-color: #E5E9F0;
+  color: #4C566A;
+  border: 0.25rem solid #D8DEE9;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  /*text-decoration: underline;*/
+  margin: 5px;
+  display: flex;
+}
