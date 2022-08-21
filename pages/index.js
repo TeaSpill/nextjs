@@ -11,6 +11,7 @@ export default function Home() {
         <title>TeaSpillStudios</title>
         <meta name="description" content="TeaSpillStudio's website" />
         <link rel="icon" href="/favicon.ico" />
+        <link href="nord.css" rel="stylesheet" type="text/css" />
       </Head>
 
       <main className={styles.main}>
@@ -28,7 +29,7 @@ export default function Home() {
           <Tile title="TeaEngine" link="https://github.com/TeaSpillStudios/TeaEngine" description="A Nelua and C game engine"></Tile>
           <Tile title="TeaFS" link="https://github.com/TeaSpillStudios/TeaFS" description="A C library to modify the file system"></Tile>
           <Tile title="Teamviewer ARM Installer" link="https://github.com/TeaSpillStudios/teamviewer-installer-for-pi" description="A quick way to install teamviewer on ARM, used in Pi Apps"></Tile>
-          <Tile title="Bread" link="https://github.com/TeaSpillStudios/Bread" description="A program so you can finally type sudo make bread nad it prints bread"></Tile>
+          <Tile title="Bread" link="https://github.com/TeaSpillStudios/Bread" description="A program so you can finally type sudo make bread and it shows ASCII bread"></Tile>
           <Tile title="Proto pong" link="https://github.com/TeaSpillStudios/Proto-Pong-Game" description="A little C++ game"></Tile>
           <Tile title="Nelua UI Manager" link="https://github.com/TeaSpillStudios/nelua-ui-manager" description="A way to make UI in Nelua"></Tile>
           <Tile title="Nelua Event Manager" link="https://github.com/nelua-event-manager" description="A way to handle events in Nelua"></Tile>
