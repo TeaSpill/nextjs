@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Tile from '../components/Tile.js'
 import Header from '../components/Header.js'
+import Description from '../components/Description.js'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -17,13 +18,9 @@ export default function Home() {
       <main className={styles.main}>
         <Header title = "TeaSpillStudios"></Header>
 
-        <p className={styles.description}>
-          A place to show information of projects and things going on.
-        </p>
+        <Description description="A place to show information of projects and things going on."></Description>
 
-        <h1 className={styles.title}>
-          Projects
-        </h1><h1></h1>
+        <Header title="Projects"></Header>
 
         <div className={styles.grid}>
           <Tile title="TeaEngine" link="https://github.com/TeaSpillStudios/TeaEngine" description="A Nelua and C game engine"></Tile>
@@ -37,20 +34,11 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>TeaSpillStudios</p>
-
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
+        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-
-        <p>TeaSpillStudios</p>
       </footer>
     </div>
   )
