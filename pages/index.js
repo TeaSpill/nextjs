@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Tile from '../components/Tile.js'
-import Header from '../components/Header.js'
-import Description from '../components/Description.js'
+import Tile from '../components/Tile'
+import Header from '../components/Header'
+import Description from '../components/Description'
+import Spacer from '../components/Spacer'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -30,6 +31,19 @@ export default function Home() {
           <Tile title="Proto pong" link="https://github.com/TeaSpillStudios/Proto-Pong-Game" description="A little C++ game"></Tile>
           <Tile title="Nelua UI Manager" link="https://github.com/TeaSpillStudios/nelua-ui-manager" description="A way to make UI in Nelua"></Tile>
           <Tile title="Nelua Event Manager" link="https://github.com/nelua-event-manager" description="A way to handle events in Nelua"></Tile>
+        </div>
+
+        <Spacer></Spacer>
+        <Header title="Accounts"></Header>
+
+        <div className={styles.grid}>
+          <Tile title="Youtube" link="https://www.youtube.com/channel/UCcH3HT1cN8jqWRX6s9p_vMQ"></Tile>
+          <Tile title="Twitch" link="https://twitch.tv/TeaSpillStudios"></Tile>
+          <Tile title="GitHub" link="https://github.com/TeaSpillStudios"></Tile>
+          <Tile title="Dev.to" link="https://dev.to/TeaSpillStudios"></Tile>
+          <Tile title="Discord server" link="https://discord.gg/qVdwfHEGdT"></Tile>
+          <Tile title="Matrix" link="https://matrix.to/#/#teaspillstudios:matrix.org"></Tile>
+          <Tile title="Odysee" link="https://odysee.com/@TeaSpillStudios:f"></Tile>
         </div>
       </main>
 
