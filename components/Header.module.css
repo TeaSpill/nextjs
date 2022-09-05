@@ -1,5 +1,10 @@
 .header {
-    text-decoration: underline;
-    color: black;
-    font-size: 3.5rem
+  text-decoration: underline;
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  background-color: #3d4346;
+  padding: 10px;
+  border-radius: 0.25em;
+  font-size: 3em;
 }

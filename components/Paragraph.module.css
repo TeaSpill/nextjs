@@ -1,0 +1,8 @@
+.paragraph {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #3d4346;
+  padding: 1em;
+  border-radius: 1em;
+}

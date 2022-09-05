@@ -1,11 +1,11 @@
 .tileimage {
   display: flex;
   justify-content: center;
+  padding-left: 2em;
   background-color: #3d4346;
   min-width: 8em;
   margin: 0.5em;
   border-radius: 1em;
-  padding: 0 1em 0 1em;
 }
 
 .image {
@@ -14,12 +14,16 @@
 }
 
 .text {
+  padding-left: 1em;
+  padding-right: 1em;
   flex: 10 10 auto;
   position: relative;
   text-align: center;
 }
 
 .textcen {
+  padding-left: 1em;
+  padding-right: 1em;
   flex: 10 10 auto;
   position: relative;
   text-align: center;

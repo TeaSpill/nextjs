@@ -2,15 +2,20 @@
   display: flex;
   justify-content: center;
   background-color: #3d4346;
+  min-height: 12em;
   min-width: 8em;
   margin: 0.5em;
-  border-radius: 1em;
+  border: 1px solid #32373a;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
   padding: 0 1em 0 1em;
 }
 
-.image {
-   object-fit: contain;
-   clip-path: circle(4rem);
+.tileimage:hover,
+.tileimage:focus,
+.tileimage:active {
+  color: #0070f3;
+  border-color: #0070f3;
 }
 
 .text {
@@ -23,6 +28,4 @@
   flex: 10 10 auto;
   position: relative;
   text-align: center;
-  display: flex;
-  align-items: center;
 }

@@ -1,11 +1,21 @@
 .tileimage {
   display: flex;
   justify-content: center;
+  padding-left: 2em;
   background-color: #3d4346;
+  min-height: 12em;
   min-width: 8em;
   margin: 0.5em;
-  border-radius: 1em;
-  padding: 0 1em 0 1em;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tileimage:hover,
+.tileimage:focus,
+.tileimage:active {
+  color: #0070f3;
+  border-color: #0070f3;
 }
 
 .image {
@@ -14,12 +24,16 @@
 }
 
 .text {
+  padding-left: 1em;
+  padding-right: 1em;
   flex: 10 10 auto;
   position: relative;
   text-align: center;
 }
 
 .textcen {
+  padding-left: 1em;
+  padding-right: 1em;
   flex: 10 10 auto;
   position: relative;
   text-align: center;

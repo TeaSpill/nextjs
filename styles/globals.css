@@ -13,4 +13,16 @@ a {
 
 * {
   box-sizing: border-box;
+  /*outline-color: green;
+  outline-width: 1px;
+  outline-style: solid;*/
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: white;
+  background: #32373a;
 }
